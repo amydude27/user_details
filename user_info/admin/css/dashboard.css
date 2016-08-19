@@ -1,0 +1,31 @@
+/*
+    Core: General style
+----------------------------
+*/
+/****--------------------------Admin Dashboard Styles -----------------------------****/
+.col_main_box {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+}
+.col_main_box .coln_in_box {
+  padding: 50px 25px;
+  vertical-align: middle;
+  min-height: 150px;
+}
+.col_main_box .coln_in_box i.fa {
+  font-size: 50px;
+  color: #0c729c;
+}
+.col_main_box .coln_in_box h4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.col_main_box :hover i.fa {
+  color: #555;
+}
+.col_main_box :hover h4 {
+  color: #0c729c;
+}
